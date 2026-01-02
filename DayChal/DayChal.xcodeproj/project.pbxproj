@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A8B9452EED12EC00E3AC92 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 05A8B9442EED12EC00E3AC92 /* Auth */; };
+		05A8B9472EED12EC00E3AC92 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 05A8B9462EED12EC00E3AC92 /* Functions */; };
+		05A8B9492EED12EC00E3AC92 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 05A8B9482EED12EC00E3AC92 /* PostgREST */; };
+		05A8B94B2EED12EC00E3AC92 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 05A8B94A2EED12EC00E3AC92 /* Realtime */; };
+		05A8B94D2EED12EC00E3AC92 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 05A8B94C2EED12EC00E3AC92 /* Storage */; };
+		05A8B94F2EED12EC00E3AC92 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 05A8B94E2EED12EC00E3AC92 /* Supabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05A8B9002EED03D300E3AC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05A8B8E72EED03D100E3AC92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05A8B8EE2EED03D100E3AC92;
+			remoteInfo = DayChal;
+		};
+		05A8B90A2EED03D300E3AC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05A8B8E72EED03D100E3AC92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05A8B8EE2EED03D100E3AC92;
+			remoteInfo = DayChal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A8B8EF2EED03D100E3AC92 /* DayChal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayChal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05A8B8FF2EED03D300E3AC92 /* DayChalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayChalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05A8B9092EED03D300E3AC92 /* DayChalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayChalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		05A8B8F12EED03D100E3AC92 /* DayChal */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DayChal;
+			sourceTree = "<group>";
+		};
+		05A8B9022EED03D300E3AC92 /* DayChalTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DayChalTests;
+			sourceTree = "<group>";
+		};
+		05A8B90C2EED03D300E3AC92 /* DayChalUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DayChalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05A8B8EC2EED03D100E3AC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A8B9492EED12EC00E3AC92 /* PostgREST in Frameworks */,
+				05A8B9472EED12EC00E3AC92 /* Functions in Frameworks */,
+				05A8B94F2EED12EC00E3AC92 /* Supabase in Frameworks */,
+				05A8B9452EED12EC00E3AC92 /* Auth in Frameworks */,
+				05A8B94D2EED12EC00E3AC92 /* Storage in Frameworks */,
+				05A8B94B2EED12EC00E3AC92 /* Realtime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A8B8FC2EED03D300E3AC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A8B9062EED03D300E3AC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05A8B8E62EED03D100E3AC92 = {
+			isa = PBXGroup;
+			children = (
+				05A8B8F12EED03D100E3AC92 /* DayChal */,
+				05A8B9022EED03D300E3AC92 /* DayChalTests */,
+				05A8B90C2EED03D300E3AC92 /* DayChalUITests */,
+				05A8B8F02EED03D100E3AC92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05A8B8F02EED03D100E3AC92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05A8B8EF2EED03D100E3AC92 /* DayChal.app */,
+				05A8B8FF2EED03D300E3AC92 /* DayChalTests.xctest */,
+				05A8B9092EED03D300E3AC92 /* DayChalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05A8B8EE2EED03D100E3AC92 /* DayChal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A8B9132EED03D300E3AC92 /* Build configuration list for PBXNativeTarget "DayChal" */;
+			buildPhases = (
+				05A8B8EB2EED03D100E3AC92 /* Sources */,
+				05A8B8EC2EED03D100E3AC92 /* Frameworks */,
+				05A8B8ED2EED03D100E3AC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				05A8B8F12EED03D100E3AC92 /* DayChal */,
+			);
+			name = DayChal;
+			packageProductDependencies = (
+				05A8B9442EED12EC00E3AC92 /* Auth */,
+				05A8B9462EED12EC00E3AC92 /* Functions */,
+				05A8B9482EED12EC00E3AC92 /* PostgREST */,
+				05A8B94A2EED12EC00E3AC92 /* Realtime */,
+				05A8B94C2EED12EC00E3AC92 /* Storage */,
+				05A8B94E2EED12EC00E3AC92 /* Supabase */,
+			);
+			productName = DayChal;
+			productReference = 05A8B8EF2EED03D100E3AC92 /* DayChal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05A8B8FE2EED03D300E3AC92 /* DayChalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A8B9162EED03D300E3AC92 /* Build configuration list for PBXNativeTarget "DayChalTests" */;
+			buildPhases = (
+				05A8B8FB2EED03D300E3AC92 /* Sources */,
+				05A8B8FC2EED03D300E3AC92 /* Frameworks */,
+				05A8B8FD2EED03D300E3AC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05A8B9012EED03D300E3AC92 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				05A8B9022EED03D300E3AC92 /* DayChalTests */,
+			);
+			name = DayChalTests;
+			packageProductDependencies = (
+			);
+			productName = DayChalTests;
+			productReference = 05A8B8FF2EED03D300E3AC92 /* DayChalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05A8B9082EED03D300E3AC92 /* DayChalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05A8B9192EED03D300E3AC92 /* Build configuration list for PBXNativeTarget "DayChalUITests" */;
+			buildPhases = (
+				05A8B9052EED03D300E3AC92 /* Sources */,
+				05A8B9062EED03D300E3AC92 /* Frameworks */,
+				05A8B9072EED03D300E3AC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05A8B90B2EED03D300E3AC92 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				05A8B90C2EED03D300E3AC92 /* DayChalUITests */,
+			);
+			name = DayChalUITests;
+			packageProductDependencies = (
+			);
+			productName = DayChalUITests;
+			productReference = 05A8B9092EED03D300E3AC92 /* DayChalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05A8B8E72EED03D100E3AC92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					05A8B8EE2EED03D100E3AC92 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					05A8B8FE2EED03D300E3AC92 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 05A8B8EE2EED03D100E3AC92;
+					};
+					05A8B9082EED03D300E3AC92 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 05A8B8EE2EED03D100E3AC92;
+					};
+				};
+			};
+			buildConfigurationList = 05A8B8EA2EED03D100E3AC92 /* Build configuration list for PBXProject "DayChal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05A8B8E62EED03D100E3AC92;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				05A8B9432EED12EC00E3AC92 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 05A8B8F02EED03D100E3AC92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05A8B8EE2EED03D100E3AC92 /* DayChal */,
+				05A8B8FE2EED03D300E3AC92 /* DayChalTests */,
+				05A8B9082EED03D300E3AC92 /* DayChalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05A8B8ED2EED03D100E3AC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A8B8FD2EED03D300E3AC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A8B9072EED03D300E3AC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05A8B8EB2EED03D100E3AC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A8B8FB2EED03D300E3AC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05A8B9052EED03D300E3AC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05A8B9012EED03D300E3AC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05A8B8EE2EED03D100E3AC92 /* DayChal */;
+			targetProxy = 05A8B9002EED03D300E3AC92 /* PBXContainerItemProxy */;
+		};
+		05A8B90B2EED03D300E3AC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05A8B8EE2EED03D100E3AC92 /* DayChal */;
+			targetProxy = 05A8B90A2EED03D300E3AC92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05A8B9112EED03D300E3AC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05A8B9122EED03D300E3AC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05A8B9142EED03D300E3AC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DayChal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = torivic.DayChal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05A8B9152EED03D300E3AC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DayChal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = torivic.DayChal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05A8B9172EED03D300E3AC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = torivic.DayChalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayChal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DayChal";
+			};
+			name = Debug;
+		};
+		05A8B9182EED03D300E3AC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = torivic.DayChalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayChal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DayChal";
+			};
+			name = Release;
+		};
+		05A8B91A2EED03D300E3AC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = torivic.DayChalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DayChal;
+			};
+			name = Debug;
+		};
+		05A8B91B2EED03D300E3AC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = torivic.DayChalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DayChal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05A8B8EA2EED03D100E3AC92 /* Build configuration list for PBXProject "DayChal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A8B9112EED03D300E3AC92 /* Debug */,
+				05A8B9122EED03D300E3AC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05A8B9132EED03D300E3AC92 /* Build configuration list for PBXNativeTarget "DayChal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A8B9142EED03D300E3AC92 /* Debug */,
+				05A8B9152EED03D300E3AC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05A8B9162EED03D300E3AC92 /* Build configuration list for PBXNativeTarget "DayChalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A8B9172EED03D300E3AC92 /* Debug */,
+				05A8B9182EED03D300E3AC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05A8B9192EED03D300E3AC92 /* Build configuration list for PBXNativeTarget "DayChalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05A8B91A2EED03D300E3AC92 /* Debug */,
+				05A8B91B2EED03D300E3AC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		05A8B9432EED12EC00E3AC92 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		05A8B9442EED12EC00E3AC92 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05A8B9432EED12EC00E3AC92 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		05A8B9462EED12EC00E3AC92 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05A8B9432EED12EC00E3AC92 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		05A8B9482EED12EC00E3AC92 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05A8B9432EED12EC00E3AC92 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		05A8B94A2EED12EC00E3AC92 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05A8B9432EED12EC00E3AC92 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		05A8B94C2EED12EC00E3AC92 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05A8B9432EED12EC00E3AC92 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		05A8B94E2EED12EC00E3AC92 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05A8B9432EED12EC00E3AC92 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 05A8B8E72EED03D100E3AC92 /* Project object */;
+}
