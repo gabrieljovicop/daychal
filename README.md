@@ -2,10 +2,10 @@
 DayChal is a Daily Challenge Application, where you can find or create some challenge with specific category and difficulty level to earn points. Points can be used for exchange to gifts provided!  
   
 Main Features:  
-- Accept Challenge  
-- Complete Challenge  
-- Create Challenge  
-- Exchange Challlenge points (ChalPoin) for gifts  
+- Accept challenge  
+- Complete challenge  
+- Create challenge  
+- Exchange challlenge points (ChalPoin) for gifts  
 - See challenge history and exchange history  
   
 API: Supabase API (for authentication and database)  
